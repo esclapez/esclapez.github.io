@@ -1,4 +1,5 @@
 @import url("font-awesome.min.css");
+@import url("academicons.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /*
@@ -1958,7 +1959,7 @@
 
 		.icon:before {
 			display: inline-block;
-			font-family: FontAwesome;
+			font-family: FontAwesome,Academicons;
 			font-size: 1.25em;
 			text-decoration: none;
 			font-style: normal;
