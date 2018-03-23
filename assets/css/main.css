@@ -2079,12 +2079,15 @@
 			text-decoration: none;
 			outline: 0;
 			border: 0;
-			-moz-transition: none;
-			-webkit-transition: none;
-			-ms-transition: none;
-			transition: none;
+			-moz-transition: color 0.35s ease-in-out;
+			-webkit-transition: color 0.35s ease-in-out;
+			-ms-transition: color 0.35s ease-in-out;
+			transition: color 0.35s ease-in-out;
 		}
 
+			#nav a:hover {
+				color: #fff;
+			}
 			#nav ul li a span {
 				position: relative;
 				display: block;
@@ -2144,7 +2147,7 @@
 
 	#main {
 		margin-left: 25%;
-		width: calc(100% - 20%);
+		width: calc(100% - 25%);
 	}
 
 		#main > section {
