@@ -1648,6 +1648,19 @@
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
+	pdflink {
+		text-decoration: none;
+		color: inherit;
+		-moz-transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
+		-webkit-transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
+		-ms-transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
+		transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
+	}
+
+		pdflink:hover {
+			color: #E27689;
+		}
+
 	sub {
 		position: relative;
 		top: 0.5em;
@@ -1753,6 +1766,17 @@
 
 		ul.default li {
 			padding-left: 0.5em;
+		}
+
+	ul.publi {
+		list-style: circle;
+		padding-left: 1em;
+	}	
+		ul.publi li {
+			padding-left: 1em;
+			font-size: 0.8em;
+			line-height: 140%;
+			text-align: justify;
 		}
 
 	ul.icons {
