@@ -2286,8 +2286,8 @@
 
 			#nav ul li a {
 				font-size: 0.8em;
-				padding-top: 0.5em;
-				padding-bottom: 0.5em;
+				padding-top: 0.3em;
+				padding-bottom: 0.3em;
 			}
 
 				#nav ul li a span {
@@ -2295,8 +2295,8 @@
 				}
 
 					#nav ul li a span:before {
-						left: 100%;
-						margin-left: -1.25em;
+						right: 80%;
+						margin-right: -1.25em;
 						line-height: 2.25em;
 					}
 
