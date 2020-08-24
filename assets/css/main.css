@@ -2176,7 +2176,7 @@
 
 	#main {
 		margin-left: 25%;
-		width: calc(100% - 25%);
+		width: calc(105% - 25%);
 	}
 
 		#main > section {
