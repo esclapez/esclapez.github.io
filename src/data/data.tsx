@@ -66,7 +66,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/assets/CV_Esclapez_2025.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -285,7 +285,7 @@ export const portfolio: PortfolioSection = {
  */
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Feel free to reach out if you want to chat.', 
+  description: 'Feel free to reach out if something on the page caught your eye.', 
   items: [
     {
       type: ContactType.Email,
