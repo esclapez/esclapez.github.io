@@ -86,7 +86,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I'm an research software engineer, with a PhD in fluid mechanics and energetics, and a broad interest in scientific computing.
-  Over the years, I have worked with numerous scientific softwares with a common denominator: the need to crush large amount of data using 
+  Over the years, I have worked on multiple scientific softwares with a common denominator: the need to crush large amount of data using 
   large high performance computing (HPC) platforms.
   `,
   aboutItems: [
