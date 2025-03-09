@@ -66,7 +66,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/CV_Esclapez_2025.pdf',
+      href: '/_next/static/media/CV_Esclapez_2025.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
