@@ -61,7 +61,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I am an <strong className="text-stone-100"> HPC advisor </strong> with a <strong className="text-stone-100">Computational Scientist</strong> background based in the Netherlands, currently
-        working at the <strong className="text-stone-100"> SURF </strong> in Amsterdam. 
+        working at <strong className="text-stone-100"> SURF </strong> in Amsterdam. 
       </p>
     </>
   ),
