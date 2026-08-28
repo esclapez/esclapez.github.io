@@ -14,6 +14,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/HeaderPict.jpg';
 import profilepic from '../images/PictLight.png';
 import pelePB from '../images/portfolio/CoverPistonBowl.png';
+import EF_Flame from '../images/portfolio/EF_Flame.png';
 import dalescloud from '../images/portfolio/DALES.png';
 import etaoc_see from '../images/portfolio/eTAOC_sea.jpg';
 import sundials from '../images/portfolio/SundialsODE.png';
@@ -59,8 +60,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am <strong className="text-stone-100">Research Software Engineer</strong> and a <strong className="text-stone-100">Computational Scientist</strong> based in the Netherlands, currently
-        working at the <strong className="text-stone-100"> Netherlands eScience Center</strong> in Amsterdam. 
+        I am <strong className="text-stone-100"> HPC advisor </strong> with a <strong className="text-stone-100">Computational Scientist</strong> background based in the Netherlands, currently
+        working at the <strong className="text-stone-100"> SURF </strong> in Amsterdam. 
       </p>
     </>
   ),
@@ -85,9 +86,11 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm an research software engineer, with a PhD in fluid mechanics and energetics, and a broad interest in scientific computing.
-  Over the years, I have worked on multiple scientific softwares with a common denominator: the need to crush large amount of data using 
+  description: `I'm a research software engineer, with a PhD in fluid mechanics and energetics, and a broad interest in scientific computing.
+  Over the years, I have worked on multiple scientific softwares with a common denominator: the need to process large amount of data using 
   large high performance computing (HPC) platforms.
+  I am enthousiastic about developing research softwares for academic and industrial applications, leveraging both software engineering and applied
+  mathematic skills.
   `,
   aboutItems: [
     {label: 'Location', text: 'Leiden, Netherlands', Icon: MapIcon},
@@ -276,6 +279,12 @@ export const portfolio: PortfolioSection = {
       text: 'Within the ExaScale Computing Project (ECP), we developed the Pele suite, a suite of CFD softwares comprising a low-Mach and a compressible Navier-Stokes solvers as well as a shared library for chemistry, transport and multiphsyics modules. Built upon AMReX, an Adaptive Mesh Refinement library, the Pele suite is the first ExaScale ready CFD solver for chemicaly reactive flows.', 
       image: pelePB,
       link: 'https://epubs.siam.org/doi/10.1137/1.9781611977967.2',
+    },
+    {
+      title: 'Developing a numerical simulation framework for flame/plasma interactions',
+      text: 'Simulation of flame/plasma interactions are computationnally expensive due to the large space and time scales separation between the various processes involved: from the fast moving electrons within the flame front to the large scale slow motion of the flame plume. At LBNL, I worked on a simulation framework based on the low-Mach number solver PeleLMeX to step over fast electron time scale in order to capture the slow effect of ion wind of laminar flames.',
+      image: EF_Flame,
+      link: 'https://arxiv.org/pdf/1904.08510',
     },
   ],
 };
