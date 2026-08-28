@@ -12,7 +12,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import GoogleScolarIcon from '../components/Icon/GoogleScholarIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/HeaderPict.jpg';
-import profilepic from '../images/PictLight.png';
+import profilepic from '../images/PictLight.jpg';
 import pelePB from '../images/portfolio/CoverPistonBowl.png';
 import EF_Flame from '../images/portfolio/EF_Flame.png';
 import dalescloud from '../images/portfolio/DALES.png';
@@ -60,7 +60,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am <strong className="text-stone-100"> HPC advisor </strong> with a <strong className="text-stone-100">Computational Scientist</strong> background based in the Netherlands, currently
+        I am an <strong className="text-stone-100"> HPC advisor </strong> with a <strong className="text-stone-100">Computational Scientist</strong> background based in the Netherlands, currently
         working at the <strong className="text-stone-100"> SURF </strong> in Amsterdam. 
       </p>
     </>
@@ -86,10 +86,10 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm a research software engineer, with a PhD in fluid mechanics and energetics, and a broad interest in scientific computing.
-  Over the years, I have worked on multiple scientific softwares with a common denominator: the need to process large amount of data using 
+  description: `I'm an HPC advisor, with a PhD in fluid mechanics and energetics, and a broad interest in scientific computing.
+  Over the years, I have contributed to multiple scientific softwares with a common denominator: the need to process large amount of data using 
   large high performance computing (HPC) platforms.
-  I am enthousiastic about developing research softwares for academic and industrial applications, leveraging both software engineering and applied
+  I am enthousiastic about developing and improving research softwares for academic and industrial applications, leveraging both software engineering and applied
   mathematic skills.
   `,
   aboutItems: [
@@ -266,7 +266,7 @@ export const portfolio: PortfolioSection = {
       title: 'Rare events sampling in geophysical high-dimentional dynamical systems',
       text: 'The Atlantic ocean circulation plays a key role in the global redistribution of heat and its potential collapse has been identified as a major tipping climatic event. We worked with the team lead by H. Dijkstra in Utrecht to apply for the first time trajectory-adaptive multi-level sampling (TAMS) to a global circulation model POP in order to predict collapse probability before 2100.',
       image: etaoc_see,
-      link: 'https://research-software-directory.org/projects/etaoc',
+      link: 'https://arxiv.org/pdf/2603.20257',
     },
     {
       title: 'ExaScale-ready time integrators for many-ODEs systems',
